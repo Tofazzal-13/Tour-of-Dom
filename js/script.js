@@ -29,3 +29,11 @@ console.log(spanElements2); */
 //     console.log(span); 
 // }
 
+const childNodes = document.getElementById("players_container").childNodes
+// console.log(childNodes[1].parentNode);
+
+
+for(const childNode of childNodes){
+    // console.log(childNode);
+    
+}
